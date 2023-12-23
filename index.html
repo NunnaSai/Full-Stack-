@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="main-container" id="main-container">
+    <nav>
+        <div class="nav-container">
+            <div class="nav-left">
+                <img src="assets/logo-small 1.svg" alt="nan">
+            </div>
+            <div class="nav-middle">
+                EmptyCup
+            </div>
+            <div class="nav-right">
+                <img src="assets/three-dots-vertical 1.svg" alt="nan">
+            </div>
+        </div>
+    </nav>
+    <hr>
+    <header>
+        <div class="header-container">
+            <div class="left-icons">
+                <div class="group-6">
+                        <img src="assets/Group 6.svg" alt="" style="height: 6vh;">
+                </div>
+                <div class="group-7">
+                    <img src="assets/Group 7.svg" alt="" style="height: 6vh;">
+                </div>
+                <div class="group-8">
+                    <img src="assets/Group 8.svg" alt="" style="height: 6vh;">
+                </div>
+            </div>
+            <div class="right-icons">
+                <div class="group-10">
+                    <button  id="listbtn" style="border: none; background-color: transparent;" onclick="openup()"><img src="assets/Group 10.svg" alt=""></button>
+                </div>
+                <div class="group-9">
+                    <img src="assets/Group 9.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="openup">
+        
+    </div>
+    <div id="body-lists" style="display: contents;">
+       
+    </div>
+   </div>
+</body>
+<script>
+
+    let button = document.getElementById("listbtn");
+    let divelement = document.querySelector(".openup");
+    let normallist = document.getElementById("body-lists");
+    function openup(){
+        if(normallist.style.display=="contents"){
+            divelement.style.display="block"
+            normallist.style.display="none";
+        }
+        else if(normallist.style.display=="none"){
+            normallist.style.display="contents";
+            divelement.style.display="none";
+        }
+    }
+</script>
+<script src="index.js"></script>
+</html>

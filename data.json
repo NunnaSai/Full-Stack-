@@ -1,0 +1,30 @@
+[
+    {
+      "id":"1",
+      "isshorlist":"false",
+      "name": "Epic Designs",
+      "projects": "57",
+      "years": 8,
+      "price": "107",
+      "path": "assets/Group 1.svg"
+    },
+    {
+      "id":"2",
+      "isshorlist":"false",
+      "name":"Studio - D3",
+      "projects": "68",
+      "years": 9,
+      "price": "125",
+      "path": "assets/Group 1-1.svg"
+    },
+    {
+        "id":"3",
+        "isshorlist":"false",
+        "name":"House of designs",
+        "projects": "78",
+        "years": 6,
+        "price": "115",
+        "path": "assets/Group 1 - Copy.svg"
+    }
+
+  ]
